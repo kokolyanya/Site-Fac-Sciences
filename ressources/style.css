@@ -1,0 +1,90 @@
+.conteneur{
+    width: 80%;
+    margin: auto;
+}
+.entete, section, footer{
+    border: 1px solid rgb(128,50,136);
+    margin-bottom: 1%;
+    display: inline-block;
+    width: 100%;
+}
+.entete, footer{
+    height: 100px;
+}
+section{
+    min-height: 200px;
+}
+.entete1, .entete2{
+    height: 100px;
+}
+.section1, .section2{
+    min-height: 200px;
+}
+.entete1, .section1{
+    float:left;
+}
+.entete2, .section2{
+    width: 80%;
+    float: right;
+}
+.entete1{
+    text-align: center;
+    width: 20%;
+}
+.entete2, footer{
+    background-color: rgb(128,50,136);
+}
+.section1{
+    background-color: rgb(241, 210, 52);
+    width: 20%;
+}
+.logo{
+    height: auto;
+    width: 50%; 
+}
+h1,h2{
+  margin:0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 18px;
+}
+.entete2{
+    position: relative;
+}
+nav{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+	font-size: 20px;
+}
+a{
+    text-decoration: none;
+	border-left: 1px solid rgb(128,50,136);
+}
+.nav{
+    background-color: rgb(241, 210, 52);
+    margin-left: -5px;		
+}
+.pageactu{
+	color: rgb(241, 210, 52);
+	background-color: rgb(128,50,136);
+}
+.pieds{
+	text-align: center;
+}
+.ppieds{
+	display: inline-block;
+	margin-bottom: 0;
+}
+.contact{
+	height: 20px;
+	width: auto;
+}
+.ou{
+	margin-left: 30px;
+}
