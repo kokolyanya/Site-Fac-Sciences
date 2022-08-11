@@ -23,8 +23,12 @@ section{
 .entete1, .section1{
     float:left;
 }
-.entete2, .section2{
+.entete2{
     width: 80%;
+    float: right;
+}
+.section2{
+    width: 100%;
     float: right;
 }
 .entete1{
@@ -34,10 +38,10 @@ section{
 .entete2, footer{
     background-color: rgb(128,50,136);
 }
-.section1{
+/* .section1{
     background-color: rgb(241, 210, 52);
     width: 20%;
-}
+} */
 .logo{
     height: auto;
     width: 50%; 
@@ -88,3 +92,16 @@ a{
 .ou{
 	margin-left: 30px;
 }
+td{
+    border-bottom: 1px solid rgb(169, 169, 169);
+    border-right: 1px solid rgb(169, 169, 169);
+    width: 40vw; 
+}
+.coln1{
+    border-left: 1px solid rgb(169, 169, 169);   
+}
+.ligne1{
+    background-color: rgba(169, 169, 169, 0.474);
+    font-weight: bold;
+}
+
