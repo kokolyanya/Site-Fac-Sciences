@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .conteneur{
     width: 80%;
     margin: auto;
@@ -38,9 +41,10 @@ section{
     background-color: rgb(241, 210, 52);
     width: 20%;
 }
+
 .logo{
-    height: auto;
-    width: 50%; 
+    height: 100%;
+    width: auto; 
 }
 h1,h2{
   margin:0;

@@ -1,9 +1,11 @@
+*{
+    margin: 0;
+}
 .conteneur{
     width: 80%;
     margin: auto;
 }
 .entete, section, footer{
-    border: 1px solid rgb(128,50,136);
     margin-bottom: 1%;
     display: inline-block;
     width: 100%;
@@ -13,18 +15,21 @@
 }
 section{
     min-height: 200px;
+    margin-bottom: 0;
 }
 .entete1, .entete2{
     height: 100px;
+    z-index: 2;
 }
 .section1, .section2{
     min-height: 200px;
+    margin-top: 120px;
 }
 .entete1, .section1{
     float:left;
 }
-.entete2, .section2{
-    width: 80%;
+.section2{
+    width: 75%;
     float: right;
 }
 .entete1{
@@ -37,10 +42,28 @@ section{
 .section1{
     background-color: rgb(241, 210, 52);
     width: 20%;
+    height: 100vh;
+}
+.entete2{
+    float: none;
+    margin-left: 20%;
+    margin-right: 0;
+    width: 60%;
+
+}
+.entete, .section1{
+    position: fixed;
+}
+footer{
+    margin-bottom: 0;
+    border-top: 20px solid white;
+}
+.entete{
+    border-bottom: 20px solid white;
 }
 .logo{
-    height: auto;
-    width: 50%; 
+    height: 100%;
+    width: auto; 
 }
 h1,h2{
   margin:0;
@@ -64,7 +87,6 @@ nav{
 }
 a{
     text-decoration: none;
-	border-left: 1px solid rgb(128,50,136);
 }
 .nav{
     background-color: rgb(241, 210, 52);	
@@ -106,7 +128,7 @@ h3{
 h4{
     background-color:rgb(119,93,255);
     color: rgb(255, 255, 255);
-    margin-bottom: 8px;
+    margin: 20px auto 10px auto;
 }
 ul{
     margin-top: 0;
@@ -116,6 +138,18 @@ p{
     font-style: italic;
     font-size: 20px;
     margin: 10px;
+}
+.lien{
+    display: block;
+    height: 40px;
+    padding:  10px;
+    font-size: 23px;
+    overflow: hidden;
+    color: rgb(128,50,136);
+}
+.lien:active{
+    background-color: rgb(128,50,136);
+    color: rgb(241, 210, 52);
 }
 
 
