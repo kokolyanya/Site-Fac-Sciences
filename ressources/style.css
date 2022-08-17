@@ -6,7 +6,7 @@
     margin: auto;
 }
 .entete, section, footer{
-    border: 1px solid rgb(128,50,136);
+    /* border: 1px solid rgb(128,50,136); */
     margin-bottom: 1%;
     display: inline-block;
     width: 100%;
@@ -19,6 +19,7 @@ section{
 }
 .entete1, .entete2{
     height: 100px;
+    z-index: 2;
 }
 .section1, .section2{
     min-height: 200px;
@@ -29,25 +30,36 @@ section{
 .entete2{
     width: 80%;
     float: right;
+    float: none;
+    margin-left: 20%;
+    margin-right: 0;
+    width: 60%;
 }
 .section2{
     width: 100%;
     float: right;
+    min-height: 200px;
+    margin-top: 120px;
 }
 .entete1{
     text-align: center;
     width: 20%;
+    background-color: rgb(255, 255, 255);
 }
 .entete2, footer{
     background-color: rgb(128,50,136);
 }
-/* .section1{
-    background-color: rgb(241, 210, 52);
-    width: 20%;
-} */
 .logo{
     height: 100%;
     width: auto; 
+}
+.entete {
+    position: fixed;
+    border-bottom: 20px solid white;
+}
+footer{
+    margin-bottom: 0;
+    border-top: 20px solid white;
 }
 h1,h2{
   margin:0;
@@ -73,9 +85,13 @@ a{
     text-decoration: none;
 	border-left: 1px solid rgb(128,50,136);
 }
+.lienLogo{
+    border: none;
+}
 .nav{
     background-color: rgb(241, 210, 52);
-    margin-left: -5px;		
+    margin-left: -5px;	
+    padding: 0 10px;	
 }
 .pageactu{
 	color: rgb(241, 210, 52);
@@ -83,29 +99,36 @@ a{
 }
 .pieds{
 	text-align: center;
+    padding: 10px;
 }
 .ppieds{
 	display: inline-block;
 	margin-bottom: 0;
+    color:rgb(255, 255, 255);
 }
 .contact{
 	height: 20px;
 	width: auto;
 }
 .ou{
-	margin-left: 30px;
+	margin: auto 30px;
 }
 td{
     border-bottom: 1px solid rgb(119,93,255);
     border-right: 1px solid rgb(119,93,255);
     width: 40vw; 
-}
-.coln1{
-    border-left: 1px solid rgb(169, 169, 169);   
+    color:rgb(17, 2, 96);
+    padding-left: 5px;
 }
 .ligne1{
     background-color:rgba(120, 93, 255, 0.827);
-    color:white;
     font-weight: bold;
 }
+.ligne1 td{
+    color: white;
+}
+.coln1{
+    border-left: 1px solid rgb(119,93,255);   
+}
+
 
