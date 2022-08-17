@@ -115,6 +115,7 @@ a {
     background-color: rgb(241, 210, 52);
     margin-left: -5px;
     padding: 0 10px;
+<<<<<<< HEAD
 }
 
 .pageactu {
@@ -189,6 +190,81 @@ p{
     text-align: center;
     margin-top: 230px;
 }
+=======
+}
+
+.pageactu {
+    color: rgb(241, 210, 52);
+    background-color: rgb(128, 50, 136);
+}
+
+.pieds {
+    text-align: center;
+    padding: 10px;
+}
+
+.ppieds {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.contact {
+    height: 20px;
+    width: auto;
+}
+
+.ou {
+    margin: auto 30px;
+}
+
+span {
+    font-style: italic;
+}
+
+p{
+    margin: 10px;
+}
+.phrase1 {
+    background-color:  rgb(119, 93, 255); 
+    color:rgb(255, 255, 255);
+    border-radius: 65% 0;
+    padding: 40px;
+    max-width: 200px;
+    text-align: center;
+    position: absolute;
+    right: 10%;
+    z-index: -1;
+}
+.phrase2 {
+    background-color:  rgb(119,93,255); 
+    color:rgb(255, 255, 255);
+    border-radius: 0 65%;
+    padding: 40px;
+    max-width: 200px;
+    text-align: center;
+    margin-top: 200px;
+}
+.phrase3 {
+    background-color:  rgb(119,93,255); 
+    color:rgb(255, 255, 255);
+    border-radius: 65% 0;
+    padding: 50px 45px;
+    max-width: 200px;
+    text-align: center;
+    position: absolute;
+    right: 10%;
+    z-index: -1;
+}
+.phrase4 {
+    background-color:  rgb(119,93,255); 
+    color:rgb(255, 255, 255);
+    border-radius: 0 30%;
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 230px;
+}
+>>>>>>> 09b33333ad9f06b4d21afff201a3858d2ce0fded
 .domaine{
     border: 6px ridge rgb(119,93,255);
     text-align: center;
